@@ -1,0 +1,195 @@
+/* Reset some default styling */
+body, h1, h2, p, ul, li, input, textarea, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header and navigation */
+header {
+    background: #ffffff; /* 헤더 배경색을 흰색으로 설정 */
+    padding: 10px 0;
+    text-align: center;
+}
+
+header .logo img {
+    height: 50px;
+    vertical-align: middle;
+}
+
+header .logo h1 {
+    display: inline;
+    margin-left: 2px;
+    vertical-align: middle;
+    font-size: 24px;
+    color: #000000 !important; /* KOSPREAD 글씨를 강제로 검은색으로 설정 */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #000000; /* 네비게이션 링크 텍스트를 검은색으로 설정 */
+    text-decoration: none;
+}
+
+/* Hero section */
+.hero {
+    background: linear-gradient(to right, #85C1E9, #D6EAF8); /* Gradient background from light blue to lighter blue */
+    color: #004085; /* Dark blue color for text */
+    text-align: center;
+    padding: 100px 20px;
+    border-radius: 8px;
+}
+
+
+.hero-content h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.cta-button {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.cta-button:hover {
+    background-color: #218838;
+}
+
+/* Products section */
+.products-section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.product-card {
+    background: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.product-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.purchase-options {
+    margin-top: 15px;
+}
+
+.buy-button {
+    display: inline-block;
+    padding: 10px 15px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.buy-button.amazon {
+    background-color: #ff9900;
+}
+
+.buy-button.shopee {
+    background-color: #ff5722;
+}
+
+.buy-button.ebay {
+    background-color: #0073b7;
+}
+
+.buy-button:hover {
+    opacity: 0.8;
+}
+
+/* About section */
+.about-section {
+    padding: 50px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+/* Contact section */
+.contact-section {
+    padding: 50px 20px;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+#contact-form {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+#contact-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+#contact-form input, #contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#contact-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#contact-form button:hover {
+    background-color: #0056b3;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #343a40;
+    color: #fff;
+}
